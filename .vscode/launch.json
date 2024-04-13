@@ -1,0 +1,51 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TASK4",
+            "request": "launch",
+            "mainClass": "com.example.TASKS.TASK4",
+            "projectName": "myinterview"
+        },
+        {
+            "type": "java",
+            "name": "TASK3",
+            "request": "launch",
+            "mainClass": "com.example.TASKS.TASK3",
+            "projectName": "myinterview"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TASK1<myinterview>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.TASKS.TASK1",
+            "projectName": "myinterview",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=58581 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=myinterview"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TASK2<myinterview>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.TASKS.TASK2",
+            "projectName": "myinterview",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=59892 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=myinterview"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MyInterviewApplication<myinterview>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.MyInterviewApplication",
+            "projectName": "myinterview",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=59560 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=myinterview"
+        }
+    ]
+}
