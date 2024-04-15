@@ -4,18 +4,17 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.contrib.java.lang.system.StandardOutputStreamLog;
 
-import com.example.Hello;
-import com.example.HelloApp;
-
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.*;
 
 /**
  * Integration test for the HelloApp program.
  * <p/>
- * An integration test verifies the workings of a complete program, a module, or a set of dependant classes.
+ * An integration test verifies the workings of a complete program, a module, or
+ * a set of dependant classes.
  * <p/>
- * This integration test uses system-rules, an extension for JUnit that lets you test System.out and System.exit()
+ * This integration test uses system-rules, an extension for JUnit that lets you
+ * test System.out and System.exit()
  * etc.:
  * <p/>
  * http://www.stefan-birkner.de/system-rules
@@ -27,7 +26,7 @@ public class HelloWithTestsIT {
 
     @Test
     public void doesItSayHelloTest() {
-        String[] args = {"1"};
+        String[] args = { "1" };
         HelloApp.main(args);
 
         assertThat(out.getLog(), is(equalTo(Hello.HELLO + "\r\n")));
@@ -35,7 +34,7 @@ public class HelloWithTestsIT {
 
     @Test
     public void doesItSayHelloTest3() {
-        String[] args = {"3"};
+        String[] args = { "3" };
         HelloApp.main(args);
 
         String thrice = Hello.HELLO + "\r\n" + Hello.HELLO + "\r\n" + Hello.HELLO + "\r\n";

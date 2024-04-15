@@ -1,10 +1,5 @@
 package com.example.TASKS;
 
-import org.springframework.web.client.RestTemplate;
-
-import com.amazonaws.services.s3.AmazonS3;
-import com.amazonaws.services.s3.AmazonS3ClientBuilder;
-
 /**
  * Create an implementation of a Rest API client.
  * Prints out how many records exists for each gender and save this file to s3

@@ -2,8 +2,6 @@ package com.example;
 
 import org.junit.Test;
 
-import com.example.Hello;
-
 import java.io.ByteArrayOutputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
