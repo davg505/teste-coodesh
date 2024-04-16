@@ -12,10 +12,8 @@ public class MinhaLista {
     private int indice;
 
     public MinhaLista() {
-
-        elementosDaLista = new ArrayList<String>();
+        elementosDaLista = new ArrayList<>();
         indice = -1;
-
     }
 
     public void add(String data) {
@@ -41,4 +39,7 @@ public class MinhaLista {
         }
     }
 
+    public int numeroItensDistintos() {
+        return elementosDaLista.size();
+    }
 }

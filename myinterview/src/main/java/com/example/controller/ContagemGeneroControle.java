@@ -19,7 +19,7 @@ public class ContagemGeneroControle {
     private ContagemGeneroService contagemGeneroService;
 
     @ApiOperation(value = "Buscar dados e salvar no S3", response = String.class)
-    @GetMapping("/process-data-and-save")
+    @GetMapping("/processo-dados-e-salvar")
     public String processoDosDadosESalvamentoS3() {
         return contagemGeneroService.processoDosDadosESalvamentoS3();
     }

@@ -38,4 +38,5 @@ public class WebClientConfig {
                 .build();
         return s3Client; // Adicione este retorno no final do método
     }
+
 }

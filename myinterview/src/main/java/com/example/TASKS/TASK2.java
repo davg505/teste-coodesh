@@ -10,7 +10,7 @@ import com.example.model.MinhaLista;
  */
 public class TASK2 {
 
-    public static void listaDeElementos(String[] args) {
+    public static void main(String[] args) {
         MinhaLista lista = new MinhaLista();
         lista.add("A");
         lista.add("B");
@@ -26,5 +26,6 @@ public class TASK2 {
         System.out.println("Lista após remover o elemento do meio:");
         lista.printList();
 
+        System.out.println("Número de itens distintos na lista: " + lista.numeroItensDistintos());
     }
 }
