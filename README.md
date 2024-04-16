@@ -111,7 +111,7 @@ URL: Retorna a quantidade de funcionários separados por sexo. Retorna a quantid
 
 ```
 
-8. Anasile do grafico.
+8. Analise do grafico.
 
 ![alt text](image.png)
 
